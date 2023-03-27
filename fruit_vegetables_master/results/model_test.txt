@@ -1,0 +1,84 @@
+C:\studysoftware\Anaconda3\envs\pyqt\python.exe C:/studysoftware/Anaconda3/pyqt5/pyqt/distinguish/fruit_vegetables_master/test_model.py
+2022-06-23 11:19:57.854054: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'cudart64_110.dll'; dlerror: cudart64_110.dll not found
+2022-06-23 11:19:57.854186: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+Found 2588 files belonging to 12 classes.
+2022-06-23 11:20:01.462329: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'cudart64_110.dll'; dlerror: cudart64_110.dll not found
+2022-06-23 11:20:01.462917: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'cublas64_11.dll'; dlerror: cublas64_11.dll not found
+2022-06-23 11:20:01.463521: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'cublasLt64_11.dll'; dlerror: cublasLt64_11.dll not found
+2022-06-23 11:20:01.466504: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'cusolver64_11.dll'; dlerror: cusolver64_11.dll not found
+2022-06-23 11:20:01.467077: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'cusparse64_11.dll'; dlerror: cusparse64_11.dll not found
+2022-06-23 11:20:01.467631: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'cudnn64_8.dll'; dlerror: cudnn64_8.dll not found
+2022-06-23 11:20:01.469866: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1850] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2022-06-23 11:20:01.470840: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Found 363 files belonging to 12 classes.
+2022-06-23 11:20:01.594495: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 95551488 exceeds 10% of free system memory.
+2022-06-23 11:20:01.682159: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 95551488 exceeds 10% of free system memory.
+2022-06-23 11:20:01.739170: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 95551488 exceeds 10% of free system memory.
+2022-06-23 11:20:02.759149: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 100933632 exceeds 10% of free system memory.
+ 1/23 [>.............................] - ETA: 12s - loss: 0.9346 - accuracy: 0.62502022-06-23 11:20:02.925868: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 100933632 exceeds 10% of free system memory.
+23/23 [==============================] - 3s 118ms/step - loss: 1.6566 - accuracy: 0.6088
+CNN 测试的准确率 accuracy : 0.6088154315948486
+1/1 [==============================] - 0s 180ms/step
+1/1 [==============================] - 0s 121ms/step
+1/1 [==============================] - 0s 136ms/step
+1/1 [==============================] - 0s 121ms/step
+1/1 [==============================] - 0s 130ms/step
+1/1 [==============================] - 0s 118ms/step
+1/1 [==============================] - 0s 123ms/step
+1/1 [==============================] - 0s 120ms/step
+1/1 [==============================] - 0s 125ms/step
+1/1 [==============================] - 0s 122ms/step
+1/1 [==============================] - 0s 132ms/step
+1/1 [==============================] - 0s 144ms/step
+1/1 [==============================] - 0s 126ms/step
+1/1 [==============================] - 0s 149ms/step
+1/1 [==============================] - 0s 128ms/step
+1/1 [==============================] - 0s 127ms/step
+1/1 [==============================] - 0s 124ms/step
+1/1 [==============================] - 0s 119ms/step
+1/1 [==============================] - 0s 125ms/step
+1/1 [==============================] - 0s 120ms/step
+1/1 [==============================] - 0s 123ms/step
+1/1 [==============================] - 0s 126ms/step
+1/1 [==============================] - 0s 99ms/step
+[[36.  0.  0.  0.  1.  0.  3.  1.  2.  0.  0.  0.]
+ [ 0. 24.  0.  1.  0.  0.  0.  0.  3.  1.  0.  0.]
+ [ 2.  0. 16.  0.  0.  2.  0.  0.  0.  0.  3.  4.]
+ [ 1.  4.  0.  9.  1.  0.  0.  1.  4.  2.  0.  0.]
+ [ 3.  0.  0.  3. 16.  0.  5.  1.  0.  0.  0.  0.]
+ [ 1.  0.  1.  0.  0. 22.  1.  0.  1.  2.  0.  4.]
+ [ 2.  0.  0.  0.  3.  0. 18. 11.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  1.  0. 12. 17.  1.  0.  0.  0.]
+ [ 1.  4.  0.  4.  0.  1.  1.  0. 13.  5.  0.  0.]
+ [ 0.  5.  0.  2.  0.  0.  1.  0.  3. 12.  1.  0.]
+ [ 0.  1.  2.  1.  0.  0.  1.  0.  0.  0. 23. 10.]
+ [ 1.  1.  2.  0.  0.  2.  0.  0.  0.  0.  5. 15.]]
+
+[[0.8372093  0.         0.         0.         0.02325581 0.
+  0.06976744 0.02325581 0.04651163 0.         0.         0.        ]
+ [0.         0.82758621 0.         0.03448276 0.         0.
+  0.         0.         0.10344828 0.03448276 0.         0.        ]
+ [0.07407407 0.         0.59259259 0.         0.         0.07407407
+  0.         0.         0.         0.         0.11111111 0.14814815]
+ [0.04545455 0.18181818 0.         0.40909091 0.04545455 0.
+  0.         0.04545455 0.18181818 0.09090909 0.         0.        ]
+ [0.10714286 0.         0.         0.10714286 0.57142857 0.
+  0.17857143 0.03571429 0.         0.         0.         0.        ]
+ [0.03125    0.         0.03125    0.         0.         0.6875
+  0.03125    0.         0.03125    0.0625     0.         0.125     ]
+ [0.05882353 0.         0.         0.         0.08823529 0.
+  0.52941176 0.32352941 0.         0.         0.         0.        ]
+ [0.         0.         0.         0.         0.03225806 0.
+  0.38709677 0.5483871  0.03225806 0.         0.         0.        ]
+ [0.03448276 0.13793103 0.         0.13793103 0.         0.03448276
+  0.03448276 0.         0.44827586 0.17241379 0.         0.        ]
+ [0.         0.20833333 0.         0.08333333 0.         0.
+  0.04166667 0.         0.125      0.5        0.04166667 0.        ]
+ [0.         0.02631579 0.05263158 0.02631579 0.         0.
+  0.02631579 0.         0.         0.         0.60526316 0.26315789]
+ [0.03846154 0.03846154 0.07692308 0.         0.         0.07692308
+  0.         0.         0.         0.         0.19230769 0.57692308]]
+
+Process finished with exit code 0
